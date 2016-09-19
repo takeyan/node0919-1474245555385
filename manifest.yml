@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: bluemix.takeyan.xyz
+  name: node0919
+  host: node0919
+  disk_quota: 1024M
+  services:
+  - performance-monitoring-auto
